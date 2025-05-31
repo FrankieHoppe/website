@@ -25,9 +25,13 @@ footer{
     font-size: 16px; /*16px = default*/
     font-weight: normal;
     
-
 }
 
+a{
+    color: lightcyan;
+
+
+}
 
 
 /* Style Classes */
@@ -47,8 +51,13 @@ footer{
 
 .container_image{
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacer{
+    height: 800px;
+
 }
 
 /* Progesseion Box */
