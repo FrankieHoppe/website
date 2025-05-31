@@ -1,5 +1,21 @@
 
 
+header{
+    background-color: darkslategrey;
+
+    height: 70px;
+    padding: 10px;
+
+}
+
+nav{
+    text-align: end;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
 body{
 
     background-color: rgb(60, 60, 60);
@@ -29,22 +45,39 @@ footer{
 
 a{
     color: lightcyan;
-
-
 }
 
 
 /* Style Classes */
 
-.container{
-    width: 80%;
-    margin: auto;
+.header_container{
+    display: flex;
+    align-items: center; /* vertikale Zentrierung */
+    justify-content: space-between; /* Abstand zwischen h1 und nav */
+}
+
+.header_logoText{
+
+    font-weight: bold;
+
 
 }
 
+nav a.nav_item{
+    background-color: darkslategray;
+    color: white;
 
-.container_footer{
-    width: 90%;
+    text-decoration: none;
+
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 15px;
+    margin-left: 0.5rem;
+    width: 10em;
+}
+
+.container{
+    width: 80%;
     margin: auto;
 }
 
@@ -58,6 +91,12 @@ a{
 .spacer{
     height: 800px;
 
+}
+
+
+.container_footer{
+    width: 90%;
+    margin: auto;
 }
 
 /* Progesseion Box */
