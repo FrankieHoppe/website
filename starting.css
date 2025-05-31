@@ -1,0 +1,65 @@
+
+
+body{
+
+    background-color: rgb(60, 60, 60);
+    color:#f4f4f4;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /*16px = default*/
+    font-weight: normal;
+
+    /* same as above just shorter*/
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+footer{
+
+    background-color: darkslategrey;
+    color: #f4f4f4;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /*16px = default*/
+    font-weight: normal;
+    
+
+}
+
+
+
+/* Style Classes */
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.container_footer{
+    width: 90%;
+    margin: auto;
+}
+
+
+.container_image{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Progesseion Box */
+.outer {
+  border: 3px solid white;
+}
+
+.box {
+  padding: 5px;
+  width: calc(4%);
+  background-color: darkcyan;
+  color: white;
+}
+
